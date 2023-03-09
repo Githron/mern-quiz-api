@@ -7,6 +7,10 @@ const UserSchema = new mongoose.Schema({
     score: {
         type: String,
     },
+
+    totalquiz: {
+        type: String,
+    }
 });
 
 const UserModel = mongoose.model("users", UserSchema);
